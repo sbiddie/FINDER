@@ -19,4 +19,22 @@ This approach is intended to be the least computationally burdensome approach, a
 
 The FINDER framework presented in the manuscript recommends intersecting candidate non-coding genetic variant lists (either lead variants alone or those in linkage disequilibrium) with the enhancer RNA (merged_eRNA) and DNase Footprint (merged_Footprint) files. The intersected candidate list can then be used downstream to infer function such as cell-type or transcription factor binding.
 
+Datasources:
+
+Dataset	Source	Version	Website	Genome build
+DHS	ENCODE	Nov 23, 2021	https://www.meuleman.org/research/dhsindex/	Hg38
+Footprints	ENCODE	OCT 20, 2020	https://www.vierstra.org/resources/dgf	Hg38
+H3K27ac_GTRD	GTRD	v21.12	https://gtrd.biouml.org/#!	Hg38
+ATAC-seq	GTRD	v21.12	https://gtrd.biouml.org/#!	Hg38
+eRNA	PINTS	2021v1	https://pints.yulab.org	Hg38
+ChIP-Seq	GTRD	v21.12	https://gtrd.biouml.org/#!	Hg38
+GWAS Catalog	NHGRI-EBI	V1.0.2	https://www.ebi.ac.uk/gwas/docs/file	Hg38
+ChIP-Seq_ASB	AD_ASTRA	V4.0.3	https://adastra.autosome.org/zanthar	Hg38
+H3K27ac_dbInDel	dbInDel	v2018	http://enhancer-indel.cam-su.org	Hg19
+CAV	ENCODE	OCT 20, 2020	https://www.vierstra.org/resources/dgf	Hg38
+raQTL_MPRA	Primary_paper	NA	https://osf.io/w5bzq/wiki/home/?view	Hg19
+caQTL	QTLbase	v1.3	http://www.mulinlab.org/qtlbase/studies.html	Hg19
+CRISPRdel_CRISPRi	Primary_paper	NA	https://www.nature.com/articles/s41587-022-01211-7#MOESM3	Hg38
+ATAC-seq	ATACdb	v1.03	https://bio.liclab.net/ATACdb/index.php	Hg38
+ATAC-seq	ENCODE	v104	https://www.encodeproject.org	Hg19![image](https://github.com/user-attachments/assets/353ea026-d3e0-4d45-8362-ce3ac1da6c3b)
 
